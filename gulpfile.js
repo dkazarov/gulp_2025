@@ -13,13 +13,8 @@ const js = () => {
 			.pipe(tsProject())
 			.pipe(
 				ts({
-					noImplicitAny: true,
-					outFile: 'main.min.js',
-					target: 'ES6',
-					removeComments: true,
-					// // experimentalAsyncFunctions: true,
-					// experimentalDecorators: true,
 					allowJs: true,
+					target: 'ES6',
 				}),
 			)
 			.pipe(sourcemaps.write())

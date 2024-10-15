@@ -1,0 +1,4 @@
+"use strict";
+let colors = ['red', 'green', 'blue'];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uanMiLCJtYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFlBQVksQ0FBQztBQ0ViLElBQUksTUFBTSxHQUFhLENBQUMsS0FBSyxFQUFFLE9BQU8sRUFBRSxNQUFNLENBQUMsQ0FBQyIsImZpbGUiOiJtYWluLmpzIiwic291cmNlc0NvbnRlbnQiOltudWxsLCIvLyA0NjQ2NDZcclxuXHJcbmxldCBjb2xvcnM6IHN0cmluZ1tdID0gWydyZWQnLCAnZ3JlZW4nLCAnYmx1ZSddO1xyXG4iXX0=
