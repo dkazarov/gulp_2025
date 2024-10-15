@@ -1,5 +1,1 @@
-function hello(compiler: string) {
-	console.log(`Hello from ${compiler}`);
-}
-hello('TypeScript');
-
+let colors: string[] = ['red', 'green', 'blue'];

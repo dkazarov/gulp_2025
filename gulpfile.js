@@ -1,4 +1,4 @@
-const { src, dest } = require('gulp');
+const { src, dest, parallel, series } = require('gulp');
 const ts = require('gulp-typescript');
 var sourcemaps = require('gulp-sourcemaps');
 
@@ -23,3 +23,8 @@ const js = () => {
 
 exports.js = js;
 exports.clear = clear;
+
+// Паралельно
+exports.default = parallel(js);
+// Строго попорядку
+exports.default = series(clear, js);
