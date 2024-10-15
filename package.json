@@ -1,0 +1,15 @@
+{
+  "name": "gulp_2025",
+  "version": "1.0.0",
+  "description": "Gulp Package TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/dkazarov/gulp_2025.git"
+  },
+  "author": "Dmytro Kazarov",
+  "license": "ISC"
+}
