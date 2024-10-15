@@ -1,15 +1,25 @@
 {
-  "name": "gulp_2025",
-  "version": "1.0.0",
-  "description": "Gulp Package TS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git remote add origin https://github.com/dkazarov/gulp_2025.git"
-  },
-  "author": "Dmytro Kazarov",
-  "license": "ISC"
+	"name": "gulp_2025",
+	"version": "1.0.0",
+	"description": "gulp pack ts",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dkazarov/gulp_2025.git"
+	},
+	"author": "Dmytro Kazarov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dkazarov/gulp_2025/issues"
+	},
+	"homepage": "https://github.com/dkazarov/gulp_2025#readme",
+	"devDependencies": {
+		"gulp": "^5.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"typescript": "^5.6.3"
+	}
 }
