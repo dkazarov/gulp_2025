@@ -13,6 +13,7 @@ const js = () => {
 				ts({
 					noImplicitAny: true,
 					outFile: 'main.min.js',
+					target: 'ES6',
 				}),
 			)
 			.pipe(sourcemaps.write())
