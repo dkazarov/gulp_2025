@@ -18,6 +18,7 @@
 	"homepage": "https://github.com/dkazarov/gulp_2025#readme",
 	"devDependencies": {
 		"gulp": "^5.0.0",
+		"gulp-clean": "^0.4.0",
 		"gulp-sourcemaps": "^3.0.0",
 		"gulp-typescript": "^6.0.0-alpha.1",
 		"typescript": "^5.6.3"

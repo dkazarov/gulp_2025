@@ -2,19 +2,24 @@ const { src, dest } = require('gulp');
 const ts = require('gulp-typescript');
 var sourcemaps = require('gulp-sourcemaps');
 
+const clear = require('./tasks/clear');
+
 const js = () => {
 	/// Convert to typeScript
-	return src('./src/js/main.ts')
-		.pipe(sourcemaps.init())
-		.pipe(
-			ts({
-				noImplicitAny: true,
-				outFile: 'main.min.js',
-			}),
-		)
-		.pipe(sourcemaps.write())
-    // Push to 
-		.pipe(dest('dist/js'));
+	return (
+		src('./src/js/main.ts')
+			.pipe(sourcemaps.init())
+			.pipe(
+				ts({
+					noImplicitAny: true,
+					outFile: 'main.min.js',
+				}),
+			)
+			.pipe(sourcemaps.write())
+			// Push to
+			.pipe(dest('dist/js'))
+	);
 };
 
-exports.default = js;
+exports.js = js;
+exports.clear = clear;
